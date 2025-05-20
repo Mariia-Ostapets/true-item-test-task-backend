@@ -1,0 +1,36 @@
+{
+  "name": "true-item-test-task-backend",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint src/**/*.js",
+    "start": "node ./src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mariia-Ostapets/true-item-test-task-backend.git"
+  },
+  "keywords": [],
+  "author": "Mariia Ostapets <mariyaostapets@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mariia-Ostapets/true-item-test-task-backend/issues"
+  },
+  "homepage": "https://github.com/Mariia-Ostapets/true-item-test-task-backend#readme",
+  "devDependencies": {
+    "@eslint/js": "^9.27.0",
+    "eslint": "^9.27.0",
+    "globals": "^16.1.0",
+    "nodemon": "^3.1.10"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "http-errors": "^2.0.0"
+  }
+}
