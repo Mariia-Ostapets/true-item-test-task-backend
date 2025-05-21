@@ -7,3 +7,10 @@ export const createTaskSchema = Joi.object({
   }),
   completed: Joi.boolean(),
 });
+
+export const updateTaskSchema = Joi.object({
+  text: Joi.string().trim().min(1).messages({
+    'string.empty': 'Text cannot be empty',
+  }),
+  completed: Joi.boolean(),
+});
